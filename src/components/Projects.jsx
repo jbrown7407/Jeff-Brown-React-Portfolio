@@ -2,6 +2,6 @@ import React, { Component } from "react";
 
 export default class Projects extends Component {
   render() {
-    return <div>Projects</div>;
+    return <div className="Projects">Projects</div>;
   }
 }
