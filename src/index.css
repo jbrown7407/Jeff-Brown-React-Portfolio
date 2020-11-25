@@ -18,4 +18,6 @@ code {
 
 .logo {
   color: black;
+  background-color: black;
+  height: 30px;
 }
