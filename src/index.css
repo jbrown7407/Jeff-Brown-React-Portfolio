@@ -60,3 +60,7 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.App-header {
+  height: 150px;
+}
