@@ -10,7 +10,7 @@ function CanvasAlpha() {
     //   <button onClick={sayHello}>Hello Component</button>
     // </div>
     <div className="CanvasAlpha">
-      <h1> Canvas Alpha </h1>{" "}
+      <h1> Contact Me </h1>{" "}
     </div>
   );
 }

@@ -8,11 +8,16 @@ function Projects(props) {
     // Render a Thumbnail component
     <div className="Projects">
       <h1>Projects</h1>
-      <Thumbnail link="" image="" title="" category="" />
+      <Thumbnail
+        link="http://codenoodle.netlify.app/"
+        image=""
+        title="Thumbnail"
+        category=""
+      />
       <Slide></Slide>
       <ul>
         <li>
-          <a href="default.asp">P1</a>
+          <a href="http://codenoodle.netlify.app/">CodeNoodle</a>
         </li>
         <li>
           <a href="news.asp">P2</a>

@@ -3,8 +3,14 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 5vmin;
   pointer-events: none;
+  float: left;
+  display: inline;
+  background-color: grey;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 5px 5px 15px 5px #ffffff;
+  box-shadow: 2px 2px 5px 2px #ffffff;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,6 +28,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  -webkit-box-shadow: 5px 5px 15px 5px #ffffff;
+  box-shadow: 5px 5px 15px 5px #ffffff;
 }
 
 .App-link {
