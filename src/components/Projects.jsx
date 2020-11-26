@@ -10,6 +10,20 @@ function Projects(props) {
       <h1>Projects</h1>
       <Thumbnail link="" image="" title="" category="" />
       <Slide></Slide>
+      <ul>
+        <li>
+          <a href="default.asp">P1</a>
+        </li>
+        <li>
+          <a href="news.asp">P2</a>
+        </li>
+        <li>
+          <a href="contact.asp">P3</a>
+        </li>
+        <li>
+          <a href="about.asp">P4</a>
+        </li>
+      </ul>
     </div>
   );
 }

@@ -20,7 +20,6 @@ function App() {
   return (
     <BrowserRouter>
       <img src={logo} className="logo-image" alt="Logo Image" />
-
       <Header></Header>
 
       <div className="navigation">
