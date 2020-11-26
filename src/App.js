@@ -19,9 +19,9 @@ function App() {
 
   return (
     <BrowserRouter>
-      <img src={logo} className="logo-image" alt="Logo Image" />
       <Header></Header>
 
+      <CanvasAlpha> </CanvasAlpha>
       <div className="navigation">
         <div className="navigation-sub">
           <Link to="/" className="item">
@@ -37,16 +37,16 @@ function App() {
           </Link>
         </div>
       </div>
-      <div className="App">
-        <Route exact path="/" component={Projects} />
-        <Route path="/articles" component={Articles} />
-        <Route path="/about" component={About} />
-      </div>
-      <CanvasAlpha> </CanvasAlpha>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <div className="App">
+          <Route exact path="/" component={Projects} />
+          <Route path="/articles" component={Articles} />
+          <Route path="/about" component={About} />
+        </div>
+
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          White Text - <code>Jeff Brown </code>
         </p>
         <a
           className="App-link"
