@@ -7,6 +7,7 @@ import About from "./components/About.jsx";
 // import Thumbnail from "./components/Thumbnail.jsx";
 import Articles from "./components/Articles.jsx";
 import Projects from "./components/Projects.jsx";
+import CanvasAlpha from "./components/CanvasAlpha.jsx";
 
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
@@ -19,6 +20,7 @@ function App() {
   return (
     <BrowserRouter>
       <img src={logo} className="logo-image" alt="Logo Image" />
+
       <Header></Header>
 
       <div className="navigation">
@@ -41,6 +43,7 @@ function App() {
         <Route path="/articles" component={Articles} />
         <Route path="/about" component={About} />
       </div>
+      <CanvasAlpha> </CanvasAlpha>
     </BrowserRouter>
   );
 }
