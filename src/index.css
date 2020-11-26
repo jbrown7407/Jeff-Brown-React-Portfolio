@@ -7,6 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.navigation {
+  color: red;
+  background-color: rgb(221, 221, 221);
+}
+.navigation-sub {
+  color: red;
+  /* background-color: rgb(221, 140, 140); */
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 40%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -21,8 +34,25 @@ code {
   color: blue;
 }
 
+.Articles {
+  color: green;
+}
+.About {
+  color: red;
+}
+
 .logo {
   color: black;
   background-color: black;
   height: 30px;
+}
+.logo-image {
+  height: 30px;
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
