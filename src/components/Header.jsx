@@ -16,11 +16,15 @@ function Header() {
       <div className="navigation">
         <div className="navigation-sub">
           <Link to="/" className="item">
+            Home
+          </Link>{" "}
+          |
+          <Link to="/projects" className="item">
             Projects
           </Link>{" "}
           |
-          <Link to="/articles" className="item">
-            Articles
+          <Link to="/Tech" className="item">
+            Tech
           </Link>{" "}
           |
           <Link to="/about" className="item">
